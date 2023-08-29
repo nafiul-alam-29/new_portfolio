@@ -195,6 +195,35 @@ main section {
 footer {
   margin-top: 130px;
   display: flex;
+  gap: 100px;
   background: #fff8f3;
   padding: 130px 200px;
+}
+
+.footer-section-description {
+  align-items: start;
+}
+.social-media-links a {
+  margin-right: 25px;
+  margin-left: 0;
+}
+
+.footer-coloumn {
+  width: 50%;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 700px;
+  border: 0;
+  border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
 }
